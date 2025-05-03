@@ -19,15 +19,6 @@ export default defineConfig({
       mode: "override",
       value: [
         {
-          title: 'SME Solutions',
-          // 可通过如下形式嵌套二级导航菜单，目前暂不支持更多层级嵌套
-          // ：
-          children: [
-            { title: '🗃️ MES', link: '/Sme-solutions/mes' },
-            { title: '📹 Computer Vision ', link: '/Sme-solutions/computer-vision' },
-          ],
-        },
-        {
           title: 'OSS',
           // 可通过如下形式嵌套二级导航菜单，目前暂不支持更多层级嵌套
           // ：
@@ -36,6 +27,15 @@ export default defineConfig({
             { title: '⬇️ Download', link: '/products/download' },
             { title: '🔷 Folder Icon', link: '/products/folder-icon' },
             { title: '🪪 WordCard ', link: '/products/dict-card' },
+          ],
+        },
+        {
+          title: 'SME Solutions',
+          // 可通过如下形式嵌套二级导航菜单，目前暂不支持更多层级嵌套
+          // ：
+          children: [
+            { title: '🗃️ MES', link: '/Sme-solutions/mes' },
+            { title: '📹 Computer Vision ', link: '/Sme-solutions/computer-vision' },
           ],
         },
         // { title: 'Document', link: 'https://jimmy-pink.github.io/' }
