@@ -21,13 +21,7 @@ export default defineConfig({
         {
           title: 'OSS',
           // 可通过如下形式嵌套二级导航菜单，目前暂不支持更多层级嵌套
-          // ：
-          children: [
-
-            { title: '⬇️ Download', link: '/products/download' },
-            { title: '🔷 Folder Icon', link: '/products/folder-icon' },
-            { title: '🪪 WordCard ', link: '/products/dict-card' },
-          ],
+          link: '/products'
         },
         {
           title: 'SME Solutions',
@@ -42,6 +36,6 @@ export default defineConfig({
       ]
     },
 
-    footer:"Copyright © 2025 | Powered by <a href=\"https://github.com/jimmy-pink\" target=\"_blank\" rel=\"noreferrer\">Jimmy</a>",
+    footer:"Copyright © 2025 | Powered by <a href=\"https://github.com/tigerai-tech\" target=\"_blank\" rel=\"noreferrer\">TigerAI</a>",
   },
 });
